@@ -1,0 +1,19 @@
+When attempting to apply machine learning to particle physics problems, there are a few things that require special care: Firstly, you want the output to have a physical meaning. There is for instance no such thing as particles with a negative mass. Secondly, you want to be able to learn something from the algorithm itself that you perhaps didn’t know before hand. Are there any correlations present that you haven’t thought of? How can you give your weights a physical meaning that can be interpreted by a human? Thirdly, you need to make sure you are training an unbiased algorithm. If it is not, you can not trust its output when applied to real data with an unknown truth distribution.
+
+I am currently working with a deep neural network architecture designed to tackle the issues above. With a training input consisting of particles motion in space and time only, their “four-vectors”, we equip the neural network architecture with the tools it needs to do calculations in spacetime (so-called Minkowski space).
+
+The network is given low-level quantities only, with the hope that it will reconstruct high-level features on its own. And, additionally, that we can learn which features the network chooses to design.
+
+The weights correspond to physical quantities reconstructed by the algorithm; distance between particles, masses and energies, linear combinations of particle four-vectors etc. The end goal is to discriminate between particles originating from different processes and, on the way, to hopefully learn something about new unknown discriminating features.
+
+For us, the question “What can we teach the machine?” is getting less interesting than the question “What can we learn from the machine?” and, by probing the neural network output, we hope to learn something new about physical processes.
+
+You can read more about LoLa at https://scipost.org/10.21468/SciPostPhys.5.3.028 or have a look at my poster http://thaarres.github.io/images/fulls/LoLa_poster.pdf!
+
+Thea Klæboe Årrestad, PhD student
+
+University of Zurich and the CMS Experiment at CERN
+
+thea.aarrestad@cern.ch
+
+http://thaarres.github.io/ 

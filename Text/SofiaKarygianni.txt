@@ -1,0 +1,5 @@
+Hello, my name is Sofia Karygianni and I am a machine learning enthusiast! From an early age, I have been fascinated by the function of the human brain and the simplicity with which humans perform complicated tasks in the blink of an eye.  Growing up, I decided to focus on how we could train machines to imitate this behaviour.
+
+I started by studying computer science and electrical engineering as my undergraduate degree. During my PhD, I worked on creating models and algorithms for pattern recognition and analysis in signals. My participation in a joint project between EPFL and RICOH  on automatic classification of biomedical images, gave me the opportunity to discover more about the practical applications of machine learning and the benefits it can have for humanity.
+
+Currently, I am exploring another exciting area of applied machine learning, that of smart farming. I am working as a Data Scientist at GAMAYA where my mission is to fuse data and machine learning algorithms into models that would help farmers achieve a more productive and sustainable agricultural production.
